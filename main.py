@@ -9,3 +9,6 @@ Example of a trade:
 
 with open('trades.json', 'r') as file:
     trades = json.load(file)
+
+# 1. Find the highest price of all trades
+# 2. The list of prices is currently sorted by time. Sort the list by price in accending order instead, then create a function that takes in a float as an argument and returns the index of the trade with the closest price to the argument.
